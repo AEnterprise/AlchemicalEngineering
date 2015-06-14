@@ -1,0 +1,16 @@
+[
+{
+  "modid": "AlchemicalEngineering",
+  "name": "Alchemical Engineering",
+  "description": "A Technical and Magical nature-based Alchemy Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Corjaantje"],
+  "credits": "Corjaantje as the official Mod Author",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
