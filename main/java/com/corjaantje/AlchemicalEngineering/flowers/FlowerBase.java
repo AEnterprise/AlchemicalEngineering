@@ -6,7 +6,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
- * Copyright © 2015, ${USER}
+ * Copyright © 2015, Corjaantje
  * http://www.Corjaantje.com/
  * Licenced under the DBAD License
  * http://www.dbad-license.org/
