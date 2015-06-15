@@ -10,7 +10,10 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 /**
- * Created by Corjaantje on 6/14/2015.
+ * Copyright © 2015, ${USER}
+ * http://www.Corjaantje.com/
+ * Licenced under the DBAD License
+ * http://www.dbad-license.org/
  */
 
 @Mod(modid = Constants.MODID, name = Constants.MODNAME, version = Constants.MODVERSION)

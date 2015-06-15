@@ -2,7 +2,10 @@ package com.corjaantje.AlchemicalEngineering.core;
 
 
 /**
- * Created by Corjaantje on 6/14/2015.
+ * Copyright © 2015, ${USER}
+ * http://www.Corjaantje.com/
+ * Licenced under the DBAD License
+ * http://www.dbad-license.org/
  */
 public class Constants {
 

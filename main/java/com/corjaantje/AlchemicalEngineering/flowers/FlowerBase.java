@@ -6,7 +6,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
- * Created by Corjaantje on 6/15/2015.
+ * Copyright © 2015, ${USER}
+ * http://www.Corjaantje.com/
+ * Licenced under the DBAD License
+ * http://www.dbad-license.org/
  */
 public class FlowerBase extends Block{
 
