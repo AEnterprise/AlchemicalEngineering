@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
  */
 public class FlowerWater extends FlowerBase {
     public FlowerWater(){
-        super("flowerWater", "flowerWater", Material.plants, CreativeTabs.tabMaterials);
+        super("flowerWater", "flowerWater", Material.plants);
+        setBlockName("WaterFlower");
     }
 }

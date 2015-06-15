@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
  */
 public class FlowerEarth extends FlowerBase {
     public FlowerEarth(){
-        super("flowerEarth", "flowerEarth", Material.plants, CreativeTabs.tabMaterials);
+        super("flowerEarth", "flowerEarth", Material.plants);
+        setBlockName("EarthFlower");
     }
 }

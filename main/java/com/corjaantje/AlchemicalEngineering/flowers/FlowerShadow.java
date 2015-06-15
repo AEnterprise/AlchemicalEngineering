@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
  */
 public class FlowerShadow extends FlowerBase{
     public FlowerShadow(){
-        super("flowerShadow", "flowerShadow", Material.plants, CreativeTabs.tabMaterials);
+        super("flowerShadow", "flowerShadow", Material.plants);
+        setBlockName("ShadowFlower");
     }
 }

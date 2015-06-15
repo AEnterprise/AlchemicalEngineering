@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
  */
 public class FlowerAir extends FlowerBase {
     public FlowerAir(){
-        super("flowerAir", "flowerAir", Material.plants, CreativeTabs.tabMaterials);
+        super("flowerAir", "flowerAir", Material.plants);
+        setBlockName("AirFlower");
     }
 }

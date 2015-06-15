@@ -1,6 +1,8 @@
 package com.corjaantje.AlchemicalEngineering.core;
 
 
+import net.minecraft.creativetab.CreativeTabs;
+
 /**
  * Copyright © 2015, Corjaantje
  * http://www.Corjaantje.com/
@@ -15,4 +17,6 @@ public class Constants {
 
     public static final String CLIENTSIDE = "com.corjaantje.AlchemicalEngineering.proxy.ClientProxy";
     public static final String SERVERSIDE = "com.corjaantje.AlchemicalEngineering.proxy.ServerProxy";
+
+    public static final CreativeTabs FLOWERTAB = CreativeTabs.tabMaterials;
 }

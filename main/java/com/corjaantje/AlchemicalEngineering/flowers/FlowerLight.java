@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
  */
 public class FlowerLight extends FlowerBase{
     public FlowerLight(){
-        super("flowerLight", "flowerLight", Material.plants, CreativeTabs.tabMaterials);
+        super("flowerLight", "flowerLight", Material.plants);
+        setBlockName("LightFlower");
     }
 }

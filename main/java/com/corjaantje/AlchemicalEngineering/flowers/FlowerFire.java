@@ -1,6 +1,7 @@
 package com.corjaantje.AlchemicalEngineering.flowers;
 
 
+import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
@@ -13,6 +14,9 @@ import net.minecraft.creativetab.CreativeTabs;
 public class FlowerFire extends FlowerBase{
 
     public FlowerFire(){
-        super("flowerFire", "flowerFire", Material.plants, CreativeTabs.tabMaterials);
+        super("flowerFire", "flowerFire", Material.plants);
+        setBlockName("FireFlower");
     }
+
+
 }
