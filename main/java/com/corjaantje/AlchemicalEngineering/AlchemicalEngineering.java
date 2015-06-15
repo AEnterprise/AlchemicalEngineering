@@ -1,8 +1,8 @@
 package com.corjaantje.AlchemicalEngineering;
 
 import com.corjaantje.AlchemicalEngineering.core.Constants;
+import com.corjaantje.AlchemicalEngineering.flowers.FlowerBase;
 import com.corjaantje.AlchemicalEngineering.proxy.ServerProxy;
-import com.corjaantje.AlchemicalEngineering.registry.FlowerRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -21,12 +21,12 @@ public class AlchemicalEngineering {
 
     @Mod.EventHandler
     public static void PreLoad(FMLPreInitializationEvent PreEvent){
-        FlowerRegister.AlchemicalEngineering();
         proxy.registerRenderInfo();
     }
 
     @Mod.EventHandler
     public static void Load(FMLInitializationEvent event){
+        FlowerBase.registerBlocks();
     }
 
     @Mod.EventHandler

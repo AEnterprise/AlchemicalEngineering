@@ -1,19 +1,13 @@
 package com.corjaantje.AlchemicalEngineering.flowers;
 
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
 /**
  * Created by Corjaantje on 6/14/2015.
  */
-public class FlowerAir {
-    public static void FlowerRegister(){
-        InitiliizeFlower();
-        RegisterFlower();
-    }
-
-    public static void InitiliizeFlower(){
-
-    }
-
-    public static void RegisterFlower(){
-
+public class FlowerAir extends FlowerBase {
+    public FlowerAir(){
+        super("flowerAir", "flowerAir", Material.plants, CreativeTabs.tabMaterials);
     }
 }
